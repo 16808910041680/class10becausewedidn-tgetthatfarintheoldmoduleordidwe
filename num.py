@@ -11,12 +11,12 @@ if a == 4:
     while num > 0:
         c= num % 10
         if b == a:
-            Midone = c
+            midone = c
         elif b ==(a - 1):
-            Midtwo = c
+            midtwo = c
         num = int (num / 10)
         b = b + 1
-        prod = Midone * Midtwo
+        prod = midone * midtwo
     print ("The product of the middle two digits is: ", prod)
 else:
     print ("The number is not a 4 digit number")
